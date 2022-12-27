@@ -4,7 +4,6 @@
 
 .contactsContainer {
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .title {

@@ -1,0 +1,47 @@
+.myWorks {
+ background-color: bisque;
+}
+
+.myWorksContainer {
+    flex-direction: column;
+}
+
+.titleBlock {
+
+}
+
+.worksContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.workBlock {
+    width: 280px;
+    height: 350px;
+    background-color: gray;
+}
+
+.imageBlock {
+    width: 100%;
+    background-color: white;
+    height: 230px;
+    display: flex;
+}
+
+.button {
+    align-self: center;
+}
+
+.textBlock {
+  padding: 8px;
+}
+
+.workTitle {
+
+}
+
+.workDescription {
+
+}
