@@ -1,25 +1,32 @@
 .myWorks {
  background-color: bisque;
+    min-height: 100vh;
 }
 
 .myWorksContainer {
     flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 .titleBlock {
+    height: 100px;
+}
 
+.myWorksTitle {
+    background-color: gray;
 }
 
 .worksContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 
 .workBlock {
     width: 280px;
-    height: 350px;
     background-color: gray;
 }
 
@@ -28,10 +35,11 @@
     background-color: white;
     height: 230px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button {
-    align-self: center;
 }
 
 .textBlock {
@@ -39,9 +47,9 @@
 }
 
 .workTitle {
-
+    background-color: aquamarine;
 }
 
 .workDescription {
-
+    background-color: aquamarine;
 }

@@ -7,3 +7,11 @@
     flex-direction: column;
     height: 250px;
 }
+
+.footerTitle {
+    background-color: gray;
+}
+
+.footerCopyright {
+    background-color: gray;
+}

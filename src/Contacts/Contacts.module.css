@@ -1,5 +1,6 @@
 .contactsBlock {
     background-color: aquamarine;
+    min-height: 100vh;
 }
 
 .contactsContainer {
@@ -7,16 +8,18 @@
 }
 
 .title {
-
+    background-color: gray;
 }
 
-.button {
-
+.contactsFormBlock {
+    width: 270px;
+    background-color: gray;
+    box-sizing: border-box;
+    padding: 7px;
 }
 
 .contactsForm {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 350px;
 }

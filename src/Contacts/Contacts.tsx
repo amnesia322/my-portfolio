@@ -9,7 +9,6 @@ const Contacts = () => {
             <div className={`${styleContainer.container} ${s.contactsContainer}`}>
                 <h4 className={s.title}>Контакты</h4>
                 <ContactsForm />
-                <button className={s.button}>Отправить</button>
             </div>
         </div>
     );

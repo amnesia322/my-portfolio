@@ -3,12 +3,13 @@
 }
 
 .remoteWorkContainer {
+    text-align: center;
     flex-direction: column;
     height: 300px;
 }
 
 .title {
-
+    background-color: aquamarine;
 }
 
 .button{

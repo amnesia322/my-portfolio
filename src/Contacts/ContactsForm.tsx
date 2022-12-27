@@ -4,7 +4,7 @@ import s from './Contacts.module.css'
 
 const ContactsForm = () => {
     return (
-        <div >
+        <div className={s.contactsFormBlock}>
             <Formik
                 initialValues={{ name: "", email: "", other: '' }}
                 onSubmit={ (values) => {
@@ -14,7 +14,7 @@ const ContactsForm = () => {
                 <Form className={s.contactsForm}>
                     <Field name="name" type="text" />
                     <Field name="email" type="email" />
-                    <Field name="other" type="textarea" component='textarea' />
+                    <Field name="other" type="text" component='textarea' />
                     <button type="submit">Отправить</button>
                 </Form>
             </Formik>

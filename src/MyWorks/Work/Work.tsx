@@ -5,7 +5,6 @@ const Work = () => {
     return (
         <div className={s.workBlock}>
             <div className={s.imageBlock}>
-                image
                 <button className={s.button}>Смотреть</button>
             </div>
             <div className={s.textBlock}>
