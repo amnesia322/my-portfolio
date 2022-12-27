@@ -1,0 +1,17 @@
+.remoteWorkBlock {
+ background-color: gray;
+}
+
+.remoteWorkContainer {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.title {
+
+}
+
+.button{
+
+}

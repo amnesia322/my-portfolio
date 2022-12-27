@@ -1,0 +1,23 @@
+.contactsBlock {
+    background-color: aquamarine;
+}
+
+.contactsContainer {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+
+}
+
+.button {
+
+}
+
+.contactsForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px;
+}
